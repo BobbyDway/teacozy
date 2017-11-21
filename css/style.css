@@ -96,6 +96,7 @@ steeping {
 }
 
 pics {
+  border: thin solid red;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -109,4 +110,115 @@ pics img {
   /*display: flex;
   flex-wrap: wrap;
   flex-direction: row;*/
+}
+
+location {
+  border: thin solid red;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.location {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: url(resources/img-locations-background.jpg);
+  text-align: center;
+  margin: 75px 0px 0px 0px;
+  padding: 0px 0px 65px 0px;
+}
+
+.location p {
+  text-align: center;
+  font-size: 22px;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+head {
+  border: thin solid red;
+  text-align: center;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+}
+
+places {
+  border: thin solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+place1 {
+  border: thin solid red;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 20px 0px 0px;
+  background-color: black;
+  opacity: 1;
+}
+
+place2 {
+  border: thin solid red;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+place3 {
+  border: thin solid red;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 0px 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+footer {
+  border: thin solid red;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+info {
+  border: thin solid red;
+  text-align: center;
+  display: flex;
+  /*margin: 0px;*/
+  justify-content: center;
+  flex-direction: column;
+}
+
+end {
+  border: thin solid red;
+  text-align: left;
+  padding: 20px;
+  justify-content: center;
 }
