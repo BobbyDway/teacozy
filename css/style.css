@@ -1,0 +1,112 @@
+* {
+  /*font-size: 22px;*/
+  color: seashell;
+  font-family: Helvetica;
+  /*opacity: 0.9;*/
+}
+
+header {
+  border: thin solid red;
+  height: 69px;
+  background-color: black;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 0px 0px;
+}
+
+.logo {
+  margin: 0px 0px 0px 15px;
+  opacity: 0.9;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav {
+  font-size: 22px;
+  color: seashell;
+}
+
+nav a {
+  padding: 40px 10px 0px 10px;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  border: thin solid red;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(resources/img-mission-background.jpg);
+}
+
+about {
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  /*color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;*/
+}
+
+about h2 h4 {
+  color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;
+}
+
+month {
+  border: thin solid red;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.month {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.month p {
+  text-align: center;
+  font-size: 22px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+steeping {
+  border: thin solid red;
+  text-align: center;
+}
+
+pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+pics img {
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  /*display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;*/
+}
